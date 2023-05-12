@@ -31,12 +31,12 @@ img, picture, svg, video {
 }
 /* --- Variables --- */
 
-body{
+body {
     background-color: #ffeedf;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,7 @@ nav{
     padding: 20px;
 }
 
-#logo{
+#logo {
     font-size: 2rem;
     font-weight: bolder;
     color: #145434;
@@ -58,7 +58,7 @@ main {
     margin: auto;
 }
 
-article{
+article {
     background-color:#145434;
     color: #ffeedf;
     flex: 1 0 400px;
@@ -67,16 +67,17 @@ article{
     position: relative;
 }
 
-h1{
+h1 {
     font-size: 2rem;
     border-bottom: 2px solid #ffeedf;
     padding-bottom: 20px;
 }
 
-button{
+button {
     gap:15px;
 }
-.details{
+
+.details {
     background-color: #ffeedf;
     color:#145434;
     display: flex;
@@ -90,7 +91,7 @@ button{
     bottom:-10px;
 }
 
-.numbers{
+.numbers {
     padding:5px 10px;
     border-radius: 60%;
     color: #145434;
@@ -98,16 +99,16 @@ button{
     font-weight: bolder;
 }
 
-p{
+p {
     padding: 5px 5px;
 }
 
-span{
+span {
     padding-left: 5px;
     font-weight: bolder;
 }
 
-article button:first-child{
+article button:first-child {
     position: absolute;
     left: -15px;
     top: -20px;
