@@ -1,0 +1,115 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+body{
+    background-color: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #145434;
+    padding: 20px;
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #145434;
+}
+main {
+    display: flex;
+    padding-top: 150px;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+article{
+    background-color:#145434;
+    color: #ffeedf;
+    flex: 1 0 400px;
+    padding: 60px  30px;
+    border: 1px solid black;
+    position: relative;
+}
+
+h1{
+    font-size: 2rem;
+    border-bottom: 2px solid #ffeedf;
+    padding-bottom: 20px;
+}
+
+button{
+    gap:15px;
+}
+.details{
+    background-color: #ffeedf;
+    color:#145434;
+    display: flex;
+    justify-content: space-between;
+    padding-top:8px;
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    position: absolute;
+    right:-10px;
+    bottom:-10px;
+}
+
+.numbers{
+    padding:5px 10px;
+    border-radius: 60%;
+    color: #145434;
+    border-color: #145434;
+    font-weight: bolder;
+}
+
+p{
+    padding: 5px 5px;
+}
+
+span{
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+article button:first-child{
+    position: absolute;
+    left: -15px;
+    top: -20px;
+}
+
